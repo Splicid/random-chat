@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 68, 175);
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
