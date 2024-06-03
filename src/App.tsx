@@ -22,11 +22,16 @@ class App extends React.Component<{}, myStates> {
 
   handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    const url = "http://api.weatherapi.com/v1"
-    const location = this.state.location
-    let result = await fetch(`${url}/current.json?key=${apiKey}&q=${location}&aqi=no`)
-    let data = await result.json()
-    this.setState({ weather: data })
+    if (!this.state.location) {
+      alert("Please enter a location")
+      return
+    } else {
+      const url = "http://api.weatherapi.com/v1"
+      const location = this.state.location
+      let result = await fetch(`${url}/current.json?key=${apiKey}&q=${location}&aqi=no`)
+      let data = await result.json()
+      this.setState({ weather: data })
+    }
   }
 
   render() {
@@ -54,7 +59,7 @@ class App extends React.Component<{}, myStates> {
               <p>{this.state.weather.current.condition.text}</p>
             </div>
           ) : (
-            <p>Loading...</p>
+            <p></p> // Empty paragraph tag for loading state
           )}
         </div>
       </div>
