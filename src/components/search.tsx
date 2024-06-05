@@ -3,15 +3,23 @@ import raw from "../../majorCities.txt";
 
 const Search = () => {
 
+    const cities: string[] = []
+
     fetch(raw)
     .then(r => r.text())
     .then(text => {
         const majorCities = text.split("\n")
-        console.log(majorCities)
+        majorCities.forEach(city => {
+            cities.push(city)
+        })
     })
 
+    
+
+
+    
     return (
-        <div> Test </div>
+        <button> TEST </button>
     )
 }
 

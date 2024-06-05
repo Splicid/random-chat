@@ -1,5 +1,6 @@
 import { useState, ChangeEvent  } from 'react';
 import React from 'react'
+import Search from './components/search';
 import './App.css'
 
 const apiKey = import.meta.env.VITE_API_URL;
@@ -46,7 +47,7 @@ class App extends React.Component<{}, myStates> {
           className='search-bar'
           onChange={(e: ChangeEvent<HTMLInputElement>) => this.setState({location: e.target.value})}
            />
-          <button>Search</button>
+          <button className='card-submit'>Search</button>
         </form>
 
         <div className='main-card'>
@@ -62,6 +63,7 @@ class App extends React.Component<{}, myStates> {
             <p></p> // Empty paragraph tag for loading state
           )}
         </div>
+        <Search />
       </div>
     )
   }

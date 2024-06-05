@@ -1,5 +1,6 @@
 --- TO DO
 
 AUTO Complete for search - Reasearching 
+- Trie data structure - researching
 Fix responsive css issues - not done
 Add location request for browser? - researching 

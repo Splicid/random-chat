@@ -49,12 +49,14 @@ body {
   margin-bottom: 20px;
 }
 
+
+
 .card-submit{
   padding: 10px;
   border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
-  background-color: rgb(29, 68, 175);
+  background-color: rgb(78, 89, 117);
   color: white;
   cursor: pointer;
 }
