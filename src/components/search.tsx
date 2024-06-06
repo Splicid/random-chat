@@ -1,28 +1,30 @@
 import raw from "../../majorCities.txt";
 import { useState, ChangeEvent  } from 'react';
 import React from 'react'
+import Select from 'react-select';
+import SingleValue from 'react-select'
 import Trie from "./tierAlgo";
 
 interface myStates {
     weather: any,
     location: string,
     zipcode: number,
+    suggestion: string,
   }
-const cities: string[] = []
+const cities: any[] = []
+const cityOptions: string[] = []
 const apiKey = import.meta.env.VITE_API_URL;
+let trie = new Trie()
 
 fetch(raw)
   .then(r => r.text())
   .then(text => {
       const majorCities = text.split("\n")
-      let trie = new Trie()
       majorCities.forEach(city => {
-          cities.push(city)
-          cities.forEach(city => {
-              trie.insert(city)
-          })
-      })
-  })
+          cities.push({label: city, value: city})
+        })
+    })
+
 
 class Search extends React.Component<{}, myStates> {
     constructor(props: {}) {
@@ -31,9 +33,9 @@ class Search extends React.Component<{}, myStates> {
           weather: null,
           location: "",
           zipcode: 0,
+          suggestion: ""
         }
-      }
-
+    }
 
     handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
@@ -47,19 +49,25 @@ class Search extends React.Component<{}, myStates> {
           let data = await result.json()
           this.setState({ weather: data })
         }
-      }
+    }
 
 
     render() {
+        const suggestion  = this.state.location;
+        let sugg = trie.suggestions(suggestion) 
+        
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <input 
-                    type="text"
-                    placeholder="Enter a location"
-                    value={this.state.location}
-                    className='search-bar'
-                    onChange={(e: ChangeEvent<HTMLInputElement>) => this.setState({location: e.target.value})}
+                    <Select 
+                        placeholder="Enter a location"
+                        className='search-bar'
+                        options={cities}
+                        onChange={(selectedOption) => {
+                            if (selectedOption) {
+                            this.setState({location: selectedOption.value});
+                            }
+                        }}
                     />
                     <button className='card-submit'>Search</button>
                 </form>

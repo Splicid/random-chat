@@ -1,220 +1,220 @@
-Abidjan
-Ahmedabad
-Alexandria
-Alofi
-Amsterdam
-Ankara
-Apia
-Ashgabat
-Astana
-Athens
-Atlanta
-Baghdad
-Baku
-Bandar Seri Begawan
-Bandar Seri Begawan
-Bangalore
-Bangkok
-Bangkok
-Bangkok
-Barcelona
-Beijing
-Beijing
-Belfast
-Belgrade
-Belo Horizonte
-Berlin
-Birmingham
-Bishkek
-Bogotá
-Boston
-Bratislava
-Bristol
-Brussels
-Bucharest
-Budapest
-Buenos Aires
-Busan
-Cairo
-Canberra
-Cape Town
-Caracas
-Cardiff
-Casablanca
-Changle
-Changsha
-Chengdu
-Chennai
-Chicago
-Chisinau
-Chongqing
-Colombo
-Colombo
-Copenhagen
-Copenhagen
-Dalian
-Dallas
-Dar es Salaam
-Delhi
-Detroit
-Dhaka
-Dhaka
-Dubai
-Dublin
-Dushanbe
-Edinburgh
-Faisalabad
-Fortaleza
-Frankfurt
-Funafuti
-Funafuti
-Geneva
-Glasgow
-Guangzhou
-Haerbin
-Hagåtña
-Hamburg
-Hanoi
-Hanoi
-Helsinki
-Ho Chi Minh City
-Hong Kong
-Hong Kong
-Honiara
-Houston
-Hyderabad
-Islamabad
-Istanbul
-Jakarta
-Jeddah
-Jerusalem
-Johannesburg
-Kabul
-Kampala
-Kathmandu
-Khartoum
-Kigali
-Kingston
-Kolkata
-Kuala Lumpur
-Kuwait City
-Lagos
-Lahore
-Lima
-Lisbon
-Ljubljana
-London
-Los Angeles
-Lusaka
-Luxembourg
-Madrid
-Managua
-Manama
-Manila
-Maputo
-Marseille
-Maseru
-Mbabane
-Melbourne
-Mexico City
-Minsk
-Mogadishu
-Monaco
-Monrovia
-Montevideo
-Moroni
-Moscow
-Muscat
-Nairobi
-Nassau
-Naypyidaw
-New Delhi
-New York
-Nicosia
-Nouakchott
-Nukuʻalofa
-Nur-Sultan
-Oslo
-Ottawa
-Ouagadougou
-Pago Pago
-Palikir
-Palikir
-Papeete
-Paris
-Phnom Penh
-Phnom Penh
-Phnom Penh
-Phoenix
-Podgorica
-Port Moresby
-Port Vila
-Porto Alegre
-Prague
-Pune
-Pyongyang
-Rangoon
-Recife
-Riga
-Rio de Janeiro
-Riyadh
-Rome
-Saint Petersburg
-Saipan
-Salvador
-San Diego
-San Francisco
-Santiago
-Sarajevo
-Seattle
-Seoul
-Seoul
-Shanghai
-Sheffield
-Shenyang
-Shenzhen
-Shijiazhuang
-Singapore
-Singapore
-Singapore
-Skopje
-Sofia
-South Tarawa
-South Tarawa
-Stockholm
-Surabaya
-Suva
-Suva
-Sydney
-São Paulo
-Taipei
-Tallinn
-Tarawa
-Tashkent
-Tbilisi
-Tehran
-Thimphu
-Thimphu
-Tianjin
-Tirana
-Tokyo
-Tokyo
-Toronto
-Ulaanbaatar
-Ulaanbaatar
-Vienna
-Vientiane
-Vientiane
-Vilnius
-Warsaw
-Wellington
-Wenzhou
-Wuhan
-Xiamen
-Yangon
-Yaren
-Yaren
-Yerevan
-Zagreb
-Zhengzhou
-Zurich
+abidjan
+ahmedabad
+alexandria
+alofi
+amsterdam
+ankara
+apia
+ashgabat
+astana
+athens
+atlanta
+baghdad
+baku
+bandar seri begawan
+bandar seri begawan
+bangalore
+bangkok
+bangkok
+bangkok
+barcelona
+beijing
+beijing
+belfast
+belgrade
+belo horizonte
+berlin
+birmingham
+bishkek
+bogotá
+boston
+bratislava
+bristol
+brussels
+bucharest
+budapest
+buenos aires
+busan
+cairo
+canberra
+cape town
+caracas
+cardiff
+casablanca
+changle
+changsha
+chengdu
+chennai
+chicago
+chisinau
+chongqing
+colombo
+colombo
+copenhagen
+copenhagen
+dalian
+dallas
+dar es salaam
+delhi
+detroit
+dhaka
+dhaka
+dubai
+dublin
+dushanbe
+edinburgh
+faisalabad
+fortaleza
+frankfurt
+funafuti
+funafuti
+geneva
+glasgow
+guangzhou
+haerbin
+hagåtña
+hamburg
+hanoi
+hanoi
+helsinki
+ho chi minh city
+hong kong
+hong kong
+honiara
+houston
+hyderabad
+islamabad
+istanbul
+jakarta
+jeddah
+jerusalem
+johannesburg
+kabul
+kampala
+kathmandu
+khartoum
+kigali
+kingston
+kolkata
+kuala lumpur
+kuwait city
+lagos
+lahore
+lima
+lisbon
+ljubljana
+london
+los angeles
+lusaka
+luxembourg
+madrid
+managua
+manama
+manila
+maputo
+marseille
+maseru
+mbabane
+melbourne
+mexico city
+minsk
+mogadishu
+monaco
+monrovia
+montevideo
+moroni
+moscow
+muscat
+nairobi
+nassau
+naypyidaw
+new delhi
+new york
+nicosia
+nouakchott
+nukuʻalofa
+nur-sultan
+oslo
+ottawa
+ouagadougou
+pago pago
+palikir
+palikir
+papeete
+paris
+phnom penh
+phnom penh
+phnom penh
+phoenix
+podgorica
+port moresby
+port vila
+porto alegre
+prague
+pune
+pyongyang
+rangoon
+recife
+riga
+rio de janeiro
+riyadh
+rome
+saint petersburg
+saipan
+salvador
+san diego
+san francisco
+santiago
+sarajevo
+seattle
+seoul
+seoul
+shanghai
+sheffield
+shenyang
+shenzhen
+shijiazhuang
+singapore
+singapore
+singapore
+skopje
+sofia
+south tarawa
+south tarawa
+stockholm
+surabaya
+suva
+suva
+sydney
+são paulo
+taipei
+tallinn
+tarawa
+tashkent
+tbilisi
+tehran
+thimphu
+thimphu
+tianjin
+tirana
+tokyo
+tokyo
+toronto
+ulaanbaatar
+ulaanbaatar
+vienna
+vientiane
+vientiane
+vilnius
+warsaw
+wellington
+wenzhou
+wuhan
+xiamen
+yangon
+yaren
+yaren
+yerevan
+zagreb
+zhengzhou
+zurich
