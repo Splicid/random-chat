@@ -10,7 +10,8 @@ interface myStates {
     location: string,
     zipcode: number,
     suggestion: string,
-  }
+}
+
 const cities: any[] = []
 const cityOptions: string[] = []
 const apiKey = import.meta.env.VITE_API_URL;
@@ -57,7 +58,7 @@ class Search extends React.Component<{}, myStates> {
         let sugg = trie.suggestions(suggestion) 
         
         return (
-            <div>
+            <div className="search-form">
                 <form onSubmit={this.handleSubmit}>
                     <Select 
                         placeholder="Enter a location"
