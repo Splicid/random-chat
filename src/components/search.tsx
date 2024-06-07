@@ -59,7 +59,7 @@ class Search extends React.Component<{}, myStates> {
         
         return (
             <div className="search-form">
-                <form onSubmit={this.handleSubmit}>
+                <form className="weather-form" onSubmit={this.handleSubmit}>
                     <Select 
                         placeholder="Enter a location"
                         className='search-bar'
